@@ -1,4 +1,4 @@
-Space Shooter Game:
+**Space Shooter Game:**
 A 2D space shooter game built with Unity. Shoot down enemies, earn points, and survive as long as you can in this retro-style arcade game.
 
 Features:
