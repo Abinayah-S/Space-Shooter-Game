@@ -30,18 +30,26 @@ Objective - Destroy enemies to gain points. Don't let enemies touch your ship!
 Project Structure:
 
 Space Shooter Game/
+
 ├── Assets/
+
 │   ├── Scripts/
+
 │   │   ├── PlayerController.cs
 │   │   ├── Bullet.cs
 │   │   ├── Enemy.cs
 │   │   ├── EnemySpawner.cs
 │   │   ├── ScoreManager.cs
 │   │   └── GameManager.cs
+
 │   ├── Prefabs/
+
 │   └── Scenes/
+
 ├── gitignore
+
 ├── README.md
+
 └── LICENSE
 
 Script Details:
