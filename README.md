@@ -4,18 +4,27 @@ A 2D space shooter game built with Unity. Shoot down enemies, earn points, and s
 Features:
 
 Player Movement: Smooth left and right movement controls
+
 Shooting Mechanics: Continuous bullet firing system
+
 Enemy Spawning: Dynamic enemy waves that spawn at intervals
+
 Score System: Real-time score tracking and display
+
 Game Over State: Game over screen with restart functionality
+
 Collision Detection: Bullet-enemy and player-enemy collision handling
+
 Space Theme: Purple nebula background with pixel art sprites
 
 How to Play:
 
 Arrow Keys or A and D keys - Move player left and right
+
 Space Bar - Shoot bullets
+
 R Key - Restart game after game over
+
 Objective - Destroy enemies to gain points. Don't let enemies touch your ship!
 
 Project Structure:
@@ -38,24 +47,29 @@ Space Shooter Game/
 Script Details:
 
 PlayerController.cs - Reads input, moves player horizontally, instantiates bullets
+
 Bullet.cs - Moves bullet upward, destroys on collision with enemy, updates score
+
 Enemy.cs - Moves downward, triggers game over on collision with player
+
 EnemySpawner.cs - Spawns enemy prefabs at random X positions at regular intervals
+
 ScoreManager.cs - Singleton that tracks and displays current score
+
 GameManager.cs - Singleton that manages game state, handles game over, and restart
 
 Assets:
 
-Free sprite assets from itch.io
-Purple space background and pixel art characters
-Creative Commons or free-to-use assets
+1. Free sprite assets from itch.io
+2. Purple space background and pixel art characters
+3. Creative Commons or free-to-use assets
 
 Technical Details:
 
-Engine: Unity 2D
-Language: C#
-Physics: Rigidbody2D with colliders
-Input: Unity Input System
+1. Engine: Unity 2D
+2. Language: C#
+3. Physics: Rigidbody2D with colliders
+4. Input: Unity Input System
 
 Getting Started:
  1. Clone this repository
